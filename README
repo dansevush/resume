@@ -1,0 +1,33 @@
+This is a simple online resume that can be used by anyone. 
+
+Using boostrap 3.03 for mobile CSS and underscore for templates,
+the only other requirements are PHP (and you can get around that
+by coding the HTML tags) and any source for JSON data. I'm using
+a PHP file to generate a gzipped JSON file, but you can create 
+a static file and use that just as easily
+
+resume.php
+  There are some variables at the top you should edit, and you
+  should update the summary JSON data to your needs. Remember
+  that links should include the class 'clickable'.
+
+resume.js
+  just a few lines to take care of business, thanks to underscore
+  and jQuery. Please update the JSONdataURL to reflect your
+  JSON data source
+   
+downloadPDF
+  Please modify this file to point to your resume. By default
+  your browser will display the PDF, but you can add the 
+  argument 'download' and it will come down as an attachment.
+  
+data.json.php
+  This generates the JSON data. You can create a static file
+  or use any source you'd like for JSON (on the same server)
+
+This is my first github posting.
+
+Dan Sevush
+sevush@gmail.com
+
+
