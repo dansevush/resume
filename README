@@ -1,4 +1,9 @@
-This is a simple online resume that can be used by anyone. 
+Running version can be seen at sevush.com/resume
+
+This is a simple online resume that can be used by anyone.
+I used backbone and bootstrap, and a JSON data stream that
+is created using a PHP "server". You can use a static JSON file and
+run it locally if needed.
 
 Using boostrap 3.03 for mobile CSS and underscore for templates,
 the only other requirements are PHP (and you can get around that
