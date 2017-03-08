@@ -5,15 +5,24 @@
 
   $data[] = array(
     'thisID' => $theID++,
-    'header'=> '<h4>Solving UI and performance problems for over 30 years.<br>' .
-       'Embracing new technologies and best practices, I excel with any team as a contributor or lead.</h4>',
+    'header'=> '<h4>Well rounded, easy going full stack engineer with over 30 years in software design and development. ' .
+      '<br>I gather requirements asking the right questions, then task and estimate accurately and implement just what is needed. ' .
+      '<br>My communication skills are top notch and I excel in small agile teams as a lead or contributor. </h4>' . 
+      '<strong>I am intrigued by the IoT, having installed SmartThings, Phillips Hue and a wifi thermostat in my home.</strong>',
+/*        'Embracing new technologies and best practices, I excel with any team as a contributor or lead.</h4>', */
     'open'=> 'in',
     'title'=> '',
     'start'=> '',
     'done' => array(
-      '<strong>Zealous Optimizer</strong>' . '<ul>',
-      'Designed, implemented and championed  	&quot;SpeedUp&quot;, the first optimal recalculation strategy for Lotus 1-2-3 (this code was still being used in the last version of 1-2-3 for' .
-      ' Windows) The dramatic increase in speed allowed Lotus to compete, on performance, against Excel.',
+      '<strong>accomplishments</strong>' . '<ul>' , 
+      'Design and implement Tournaments as a micro-service for ' . 
+      '<a class="clickable" href="http://www.sparcade.com/" target="_blank">Sparcade,</a> GSN\'s ambitious mobile tournament platform ' . 
+      '<a class="clickable" href="http://venturebeat.com/2016/11/17/gsns-sparcade-lets-you-play-centipede-and-two-dots-soon-for-real-money/" target="_blank">released October 2016.</a>' . 
+      'Deployed three major releases subsequently, using continuous integration. ', 
+
+      'Design, implement and evangalized 	&quot;SpeedUp&quot;, the first optimal recalculation strategy for Lotus 1-2-3 (this code was still being used in the last version of 1-2-3 for' .
+      ' Windows) The dramatic increase in speed allowed Lotus '. 
+      '<a class="clickable" href="http://tinyurl.com/jr85u3r" target="_blank">to compete, on performance, against Excel.',
       'Named inventor on <a class="clickable" href="http://www.google.com/patents/US5136654" target="_blank">patent 5,136,654</a> for optimizing speech recognition'
        . '</ul>',
 
@@ -21,10 +30,68 @@
       'Principal engineer for Lotus Agenda, the product that coined the term  	&quot;Personal Information Manager&quot;',
       'Created, spec\'d and implemented the first online gift attachments to greeting cards for Blue Mountain Arts (1999).'
        . '</ul>',
-      "<strong>Skills/Environment:</strong> JavaScript (jQuery, Ajax), Python, PHP, C, C++, C#, (anything in the key of 'C'), Perl, HTML, XML, MySQL, SQLAlchemy, Apache, ASP/.NET, dozens of assembly languages, numerous cross-compilers.",
-      "<strong>OS:</strong> linux, OSX, Windows/DOS.",
-      '<strong>Tools/Buzzwords:</strong>  	&quot;single page app&quot;, jQuery, Ajax, Qunit, backbone, knockout, Agile, Assembla, Mercurial, Git, SVN, EC2, S3, HTML5, Facebook API/Development, Mobile Apps (HTML5 - not IOS or Android specific)',
+      "<strong>languages:</strong> Python, JavaScript, PHP, C, C++, C#, (anything in the key of 'C'), Perl, HTML5, JSON, XML, x86 ASM",
+      "<strong>tools/technologies:</strong>  git & github, Jira, Jenkins, Bamboo, glu, Sentry, Splunk, Crucible, Apache, Celery, Promises",
+      '<strong>front end:</strong>  	 jQuery, grunt, handlebars, Ajax, Qunit, backbone, Facebook API',
+      '<strong>environments:</strong>  	 unix, linux, docker, vagrant, AWS, S3, OSX (Mac), Windows and PC DOS',
       '<strong>Personal:</strong> Volunteer Webmaster for The Boston Blues Society, accomplished pianist and Hammond organist, playing with Track44'
+    )
+  );
+
+  $data[] = array(
+    'thisID' => $theID++,
+    'header'=> 'Recommendations',
+    'title'=> '',
+    'start'=> 2016,
+    'endYear'=> 2017,
+    'done' => array(
+      "view all recommendations on <a class='clickable' href='https://www.linkedin.com/in/dansevush#recommendations' target='_blank'>linkedin</a><p>",
+      "<a class='clickable' href='https://www.linkedin.com/in/david-kern-318b009' target='_blank'>David Kern</a> <span class='pull-right'>Engineering Director at GSN Games </span>" . 
+      "<p>When I reflect on the qualities which form an outstanding engineer, I have to think no further than Dan Sevush. " . 
+      "I am honored to have had an opportunity to work with, learn from, and direct Dan while working on GSN's skill platform. " . 
+      "No matter the task, Dan always had a unique perspective drawn from a deep well of experience - often his input was directly responsible for preventing critical mistakes and de-risking execution."  .
+      "<p>Dan also has a very unique talent that I've found is rarely encountered in a software engineer of any level - requirement discovery. ". 
+      "When a project was \"fuzzy\", Dan never failed to impress. He would go out of his way to nail down requirements - going directly to stakeholders for clarity, " . 
+      " running experiments to test assumptions, and documenting his findings for the benefit of the team."  . 
+      "<p>In short, working with Dan was not only a pleasure, the experience left me as a better engineer and director. Thank you sir",
+
+      "<a class='clickable' href='https://www.linkedin.com/in/taramcgoff' target='_blank'>Tara McGoff</a><span class='pull-right'> Senior Product Manager at GSN Games</span>" . 
+      "<p>Dan and I worked together on two different products over a span of several years. He is an asset to any team, asking tough questions and helping to " .  
+      "keep scrum teams focused on projects that will directly impact the bigger picture goals of an organization. He is a development leader, " .  
+      "who fosters cross training and efficiency, and often goes the extra mile to ensure that product management and other cross-functional staff are aware of his work progress, and his suggestions for spec modifications." . 
+      "It was a pleasure working with Dan and I believe his ability to jump in and learn new things, and the fact that he embraces his roles as both team player and leader, make him especially adaptable to work at an organization",
+
+      "<a class='clickable' href='https://www.linkedin.com/in/alexanderkishinevsky' target='_blank'>Alexander Kishinevsky</a> <span class='pull-right'>VP Engineering at GSN Games</span>" . 
+      "<p>Dan's presence in the team assures experience, maturity, pragmatic thinking, and ultimately, strong and effective communication to explain highly complex technical " .
+      "and architectural issues to designers, product managers, and anyone else outside technology. " . 
+      "<p>Without Dan's efforts and presence, we would not have been in a position to run an important piece of a core loop technology to provide greatest " . 
+      "possible distributed tournament execution experience. Moreover, his execution and decision making has proven to be solid as his components run over time in a live deployment:" .
+      " a job well done. I can always count on Dan to provide feedback and advice that made a big positive difference to this business", 
+
+      "<a class='clickable' href='https://www.linkedin.com/in/steve-santarpia-5bb4516' target='_blank'>Steve Santarpia</a><span class='pull-right'>QA Lead at GSN Games</span>" . 
+      "<p>Dan is really what you want in an employee. Hard working, knowledgeable, easy to communicate with. He'll burn the midnight oil getting work completed " .
+      "and still come into work with a smile. I was always able to reach out to him with a question or issue and have a great discussions on solutions.". 
+      "<p>As part of a scrum team he was one of the best with communicating done criteria and areas to test for QA. This helped immensely in getting the " . 
+      "feature validated properly and timely. When you have an open position for an engineer, Dan is the ideal candidate",
+
+      "<a class='clickable' href='https://www.linkedin.com/in/rich-skorski' target='_blank'>Rich Skorski</a><span class='pull-right'> Senior Software Engineer at GSN Games</span>" . 
+      "<p>Dan has an immense amount of expertise. He can develop robust, enterprise level software, and also has the gift of knowing when focused, " . 
+      "small-scale solutions are the better route. I wish I had more time to learn from him both about software and about barbecue!"
+    )
+  );
+
+  $data[] = array(
+    'thisID' => $theID++,
+    'header'=> 'GSN Digital',
+    'location'=>'Boston, MA',
+    'title'=> 'Principal Software Engineer',
+    'start'=> 2014,
+    'endYear'=> 2017,
+    'done' => array(
+      'Design/implement tournament micro-services for Sparcade, a mobile backend using Python, Django, and AWS. Distributed team in San Francisco, Ukraine, Bangalore and Boston.',
+      'Initial work for Sparcade on auth and payments micro-services for mobile games using python, Django, rest-framework and AWS',
+      'Design/implement RESTful JSON Web Token service for all GSN studios using python and flask', 
+      'Responsive (mobile) page for GSN casino games using Less, Grunt, etc.'
     )
   );
 
@@ -33,10 +100,11 @@
     'header'=> 'Clear Ballot Group',
     'location'=>'Boston, MA',
     'title'=> 'Senior Software Engineer',
-    'start'=> 2014,
+    'start'=> 2013,
     'done' => array(
-      'Working on a next generation election system using Python, Javascript, jQuery, SQLalchemy and MySQL',
-      'Implemented user backup/restore of election databases and tools for generating source code documentation'
+      'Working on a next generation election system using Python, Web.py, SQLalchemy, MySQL, Javascript and jQuery ',
+      'Designed and implemented user backup/restore of election databases and tools for generating source code documentation ',
+      'WAI-ARIA compliant “single file” offline HTML5 ballot using Javascript tools – grunt, jshint, handlebars, bootstrap and of course, jQuery'
     )
   );
 
@@ -344,7 +412,7 @@
     'header'=> 'The small Computer Company',
     'location'=>'New York, NY',
     'title'=> 'Software Engineer',
-    'start'=> 1981,
+    'start'=> 1982,
     'endYear'=> 1982,
     'done' => array(
       "Worked on Profile, a database and file manager published by Tandy (Radio Shack) for the TRS80 (Z80) model I, II and III systems.",
@@ -352,6 +420,13 @@
     )
   );
 
+/*
+  
+  
+*/
+
+
+  
 /*
   $data[] = array(
     'thisID' => $theID++,
